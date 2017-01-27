@@ -1,6 +1,7 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
+[debug] no default cache defined: set to /Users/lee/.ivy2/cache
 [debug] :: resolving dependencies :: default#advancedanalyticswithspark$sbt_2.11;1.0
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -703,9 +704,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 526ms :: artifacts dl 23ms
+[debug] :: resolution report :: resolve 1565ms :: artifacts dl 60ms
 [debug] 	report for default#advancedanalyticswithspark$sbt_2.11;1.0 default produced in /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/resolution-cache/reports/default-advancedanalyticswithspark$sbt_2.11-default.xml
-[debug] 	resolve done (526ms resolve - 23ms download)
+[debug] 	resolve done (1565ms resolve - 60ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#advancedanalyticswithspark$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1070,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 129ms :: artifacts dl 24ms
+[debug] :: resolution report :: resolve 190ms :: artifacts dl 36ms
 [debug] 	report for default#advancedanalyticswithspark$sources_2.11;1.0 default produced in /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/resolution-cache/reports/default-advancedanalyticswithspark$sources_2.11-default.xml
-[debug] 	resolve done (129ms resolve - 24ms download)
+[debug] 	resolve done (190ms resolve - 36ms download)

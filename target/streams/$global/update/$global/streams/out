@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for default#advancedanalyticswithspark_2.11;1.0 [compile]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45942c0d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44ea7745
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8
 [debug] 	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [compile->runtime]
@@ -3375,6 +3375,251 @@
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-sql_2.11;2.0.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-sql_2.11;2.0.0 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-sql_2.11;2.0.0
+[debug] 	found org.apache.spark#spark-sql_2.11;2.0.0 in sbt-chain
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->master(compile)]
+[info] Resolving com.univocity#univocity-parsers;2.1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: com.univocity#univocity-parsers;2.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.univocity#univocity-parsers;2.1.1
+[debug] 	found com.univocity#univocity-parsers;2.1.1 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->master(compile)]
+[info] Resolving org.apache.spark#spark-sketch_2.11;2.0.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-sketch_2.11;2.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-sketch_2.11;2.0.0
+[debug] 	found org.apache.spark#spark-sketch_2.11;2.0.0 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->master(compile)]
+[info] Resolving org.apache.spark#spark-catalyst_2.11;2.0.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-catalyst_2.11;2.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-catalyst_2.11;2.0.0
+[debug] 	found org.apache.spark#spark-catalyst_2.11;2.0.0 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->master(compile)]
+[info] Resolving org.codehaus.janino#janino;2.7.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.codehaus.janino#janino;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.codehaus.janino#janino;2.7.8
+[debug] 	found org.codehaus.janino#janino;2.7.8 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[info] Resolving org.codehaus.janino#commons-compiler;2.7.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.codehaus.janino#commons-compiler;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.codehaus.janino#commons-compiler;2.7.8
+[debug] 	found org.codehaus.janino#commons-compiler;2.7.8 in sbt-chain
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)]
+[info] Resolving org.antlr#antlr4-runtime;4.5.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.antlr#antlr4-runtime;4.5.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.antlr#antlr4-runtime;4.5.3
+[debug] 	found org.antlr#antlr4-runtime;4.5.3 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[info] Resolving commons-codec#commons-codec;1.10 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
+[debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[info] Resolving org.apache.parquet#parquet-column;1.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-column;1.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.parquet#parquet-column;1.7.0
+[debug] 	found org.apache.parquet#parquet-column;1.7.0 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[info] Resolving org.apache.parquet#parquet-common;1.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-common;1.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.parquet#parquet-common;1.7.0
+[debug] 	found org.apache.parquet#parquet-common;1.7.0 in sbt-chain
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->master(compile)]
+[info] Resolving org.apache.parquet#parquet-encoding;1.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-encoding;1.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}
+[debug] sbt-chain: module revision found in cache: org.apache.parquet#parquet-encoding;1.7.0
+[debug] 	found org.apache.parquet#parquet-encoding;1.7.0 in sbt-chain
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->master(compile)]
+[info] Resolving org.apache.parquet#parquet-generator;1.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-generator;1.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.parquet#parquet-generator;1.7.0
+[debug] 	found org.apache.parquet#parquet-generator;1.7.0 in sbt-chain
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->master(compile)]
+[info] Resolving org.apache.parquet#parquet-hadoop;1.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-hadoop;1.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.parquet#parquet-hadoop;1.7.0
+[debug] 	found org.apache.parquet#parquet-hadoop;1.7.0 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->master(compile)]
+[info] Resolving org.apache.parquet#parquet-format;2.3.0-incubating ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-format;2.3.0-incubating {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.parquet#parquet-format;2.3.0-incubating
+[debug] 	found org.apache.parquet#parquet-format;2.3.0-incubating in sbt-chain
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->master(compile)]
+[info] Resolving org.apache.parquet#parquet-jackson;1.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-jackson;1.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.parquet#parquet-jackson;1.7.0
+[debug] 	found org.apache.parquet#parquet-jackson;1.7.0 in sbt-chain
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->master]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
@@ -6283,6 +6528,177 @@
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->master]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
@@ -9197,6 +9613,177 @@
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->master]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
@@ -12114,6 +12701,177 @@
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->master]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
@@ -15030,6 +15788,177 @@
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->master]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
@@ -17946,6 +18875,177 @@
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.spark#spark-core_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.univocity#univocity-parsers;2.1.1 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-sketch_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sketch_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-catalyst_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-core_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.codehaus.janino#janino;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.codehaus.janino#janino;2.7.8->org.codehaus.janino#commons-compiler;2.7.8 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.antlr#antlr4-runtime;4.5.3 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-catalyst_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.spark#spark-tags_2.11;2.0.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->org.apache.parquet#parquet-encoding;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->org.apache.parquet#parquet-generator;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-generator;1.7.0->org.apache.parquet#parquet-common;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-encoding;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-column;1.7.0->commons-codec#commons-codec;1.10 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.apache.parquet#parquet-hadoop;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-column;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-format;2.3.0-incubating [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.apache.parquet#parquet-jackson;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.parquet#parquet-hadoop;1.7.0->org.xerial.snappy#snappy-java;1.1.2.4 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-sql_2.11;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile]
+[debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.apache.spark#spark-sql_2.11;2.0.0 [compile->master]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
 [debug] == resolving dependencies default#advancedanalyticswithspark_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
@@ -18026,6 +19126,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-core_2.11;2.0.0!spark-core_2.11.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-sql_2.11;2.0.0!spark-sql_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
@@ -18097,7 +19198,6 @@
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar
 [debug] 	[NOT REQUIRED] xmlenc#xmlenc;0.52!xmlenc.jar
 [debug] 	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.4!commons-codec.jar
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.1!commons-io.jar
 [debug] 	[NOT REQUIRED] commons-lang#commons-lang;2.5!commons-lang.jar
 [debug] 	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar
@@ -18143,8 +19243,22 @@
 [debug] 	[NOT REQUIRED] org.glassfish.jersey.media#jersey-media-jaxb;2.22.2!jersey-media-jaxb.jar
 [debug] 	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.6.5!jackson-module-paranamer.jar(bundle)
+[debug] 	[NOT REQUIRED] com.univocity#univocity-parsers;2.1.1!univocity-parsers.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-sketch_2.11;2.0.0!spark-sketch_2.11.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.11;2.0.0!spark-catalyst_2.11.jar
+[debug] 	[NOT REQUIRED] org.apache.parquet#parquet-column;1.7.0!parquet-column.jar
+[debug] 	[NOT REQUIRED] org.apache.parquet#parquet-hadoop;1.7.0!parquet-hadoop.jar
+[debug] 	[NOT REQUIRED] org.codehaus.janino#janino;2.7.8!janino.jar
+[debug] 	[NOT REQUIRED] org.antlr#antlr4-runtime;4.5.3!antlr4-runtime.jar
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar
+[debug] 	[NOT REQUIRED] org.codehaus.janino#commons-compiler;2.7.8!commons-compiler.jar
+[debug] 	[NOT REQUIRED] org.apache.parquet#parquet-common;1.7.0!parquet-common.jar
+[debug] 	[NOT REQUIRED] org.apache.parquet#parquet-encoding;1.7.0!parquet-encoding.jar
+[debug] 	[NOT REQUIRED] org.apache.parquet#parquet-generator;1.7.0!parquet-generator.jar
+[debug] 	[NOT REQUIRED] org.apache.parquet#parquet-format;2.3.0-incubating!parquet-format.jar
+[debug] 	[NOT REQUIRED] org.apache.parquet#parquet-jackson;1.7.0!parquet-jackson.jar
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 6326ms :: artifacts dl 100ms
+[debug] :: resolution report :: resolve 7682ms :: artifacts dl 157ms
 [debug] 	report for default#advancedanalyticswithspark_2.11;1.0 compile produced in /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/resolution-cache/reports/default-advancedanalyticswithspark_2.11-compile.xml
 [debug] 	report for default#advancedanalyticswithspark_2.11;1.0 runtime produced in /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/resolution-cache/reports/default-advancedanalyticswithspark_2.11-runtime.xml
 [debug] 	report for default#advancedanalyticswithspark_2.11;1.0 test produced in /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/resolution-cache/reports/default-advancedanalyticswithspark_2.11-test.xml
@@ -18158,5 +19272,5 @@
 [debug] 	report for default#advancedanalyticswithspark_2.11;1.0 docs produced in /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/resolution-cache/reports/default-advancedanalyticswithspark_2.11-docs.xml
 [debug] 	report for default#advancedanalyticswithspark_2.11;1.0 pom produced in /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/resolution-cache/reports/default-advancedanalyticswithspark_2.11-pom.xml
 [debug] 	report for default#advancedanalyticswithspark_2.11;1.0 scala-tool produced in /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/resolution-cache/reports/default-advancedanalyticswithspark_2.11-scala-tool.xml
-[debug] 	resolve done (6326ms resolve - 100ms download)
+[debug] 	resolve done (7682ms resolve - 157ms download)
 [info] Done updating.
