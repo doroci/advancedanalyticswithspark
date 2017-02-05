@@ -1,0 +1,401 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+22 items
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/MatchData$.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/MatchData.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$1.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$longForm$1$$anonfun$apply$1.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$longForm$1.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$main$1.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$main$2.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$scoreMatchData$1.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$typecreator1$1.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$typecreator2$1.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$typecreator3$1.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$Score$$anonfun$$plus$1.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$Score$.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$Score.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/StandAloneTest$.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/StandAloneTest.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/SimpleApp$$anonfun$1.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/SimpleApp$$anonfun$2.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/SimpleApp$.class
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/SimpleApp.class
+binary dependencies:
+11 items
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/rt.jar
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.0.0.jar
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.0.jar
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> /Users/lee/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/rt.jar
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> /Users/lee/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.0.jar
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> /Users/lee/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/rt.jar
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> /Users/lee/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.0.0.jar
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> /Users/lee/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+22 items
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.MatchData
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.MatchData$
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$$anonfun$1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$$anonfun$longForm$1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$$anonfun$longForm$1$$anonfun$apply$1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$$anonfun$main$1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$$anonfun$main$2
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$$anonfun$scoreMatchData$1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$$typecreator1$1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$$typecreator2$1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$$typecreator3$1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$Score
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$Score$
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2.RunCh2$Score$$anonfun$$plus$1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> ch2.StandAloneTest
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> ch2.StandAloneTest$
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> simple.SimpleApp
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> simple.SimpleApp$
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> simple.SimpleApp$$anonfun$1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> simple.SimpleApp$$anonfun$2
+used names:
+233 items
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> $
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> $m
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> $m$untyped
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> $typecreator1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> $typecreator2
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> $typecreator3
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> $u
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> &&
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> +
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> <init>
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ==
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ===
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> AbstractFunction1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> AbstractFunction12
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> AnyRef
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Array
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Boolean
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> DataFrame
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Double
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> IndexedSeq
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Int
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> List
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> MatchData
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Mirror
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Nil
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> None
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Nothing
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Option
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Predef
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Product
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> RunCh2
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ScalaRunTime
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Score
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Seq
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Serializable
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> SingleType
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Singleton
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> SparkSession
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Statics
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> String
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> StringContext
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ThisType
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Type
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> TypeCreator
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> TypeRef
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> TypeTag
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> U
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Unit
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> Universe
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> _toString
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> agg
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> anyHash
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> apache
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> appName
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> apply
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> as
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> asInstanceOf
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> asModule
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> asType
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> augmentString
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> builder
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> cache
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> canBuildFrom
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ch2
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> cmp_bd
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> cmp_bm
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> cmp_by
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> cmp_fname_c1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> cmp_fname_c2
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> cmp_lname_c1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> cmp_lname_c2
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> cmp_plz
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> cmp_sex
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> collection
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> count
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> createOrReplaceTempView
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> crossTabs
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> csv
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> desc
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> describe
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> doubleHash
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> eq
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> filter
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> finalizeHash
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> first
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> flatMap
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> foreach
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> functions
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> getClass
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> getClassLoader
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> getOrCreate
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> getOrElse
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> getString
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> groupBy
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> i
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> id_1
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> id_2
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> immutable
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> implicits
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> intWrapper
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> internal
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> isInstanceOf
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> is_match
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> lf
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> lit
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> longForm
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> map
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> master
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> matchData
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> matchSummary
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> matchSummaryT
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> matches
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> materializeTypeTag
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> md
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> metric
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> missSummary
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> missSummaryT
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> misses
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> mix
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> moduleClass
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> name
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> newProductEncoder
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> oi
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> option
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> orderBy
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> org
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> package
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> parsed
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> pivot
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> pivotSummary
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> preview
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> println
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> read
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> reflect
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> reificationSupport
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> row
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> runtime
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> runtimeMirror
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> s
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> scala
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> schema
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> scoreMatchData
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> scored
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> select
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> selectExpr
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> selectType
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> show
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> size
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> spark
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> sparkSession
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> sql
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> staticClass
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> staticModule
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> staticPackage
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> summary
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> t
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> toDF
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> toDouble
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> toString
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> toTypeConstructor
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> typedProductIterator
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> universe
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> until
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> value
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> where
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> ||
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> $
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> <init>
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> AnyRef
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> Array
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> Predef
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> SparkSession
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> StandAloneTest
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> String
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> StringContext
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> Unit
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> apache
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> appName
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> builder
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> cache
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> ch2
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> count
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> createOrReplaceTempView
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> csv
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> desc
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> describe
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> getOrCreate
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> groupBy
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> implicits
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> master
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> option
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> orderBy
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> org
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> parsed
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> preview
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> read
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> scala
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> show
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> spark
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> sql
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> summary
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> <init>
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> AnyRef
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> Array
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> Predef
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> SimpleApp
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> SparkConf
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> SparkContext
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> String
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> StringContext
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> Unit
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> apache
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> cache
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> conf
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> contains
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> count
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> filter
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> line
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> logData
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> logFile
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> numAs
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> numBs
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> org
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> println
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> s
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> sc
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> scala
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> setAppName
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> setMaster
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> simple
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> spark
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> stop
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> textFile
+product stamps:
+22 items
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/MatchData$.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/MatchData.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$1.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$longForm$1$$anonfun$apply$1.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$longForm$1.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$main$1.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$main$2.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$scoreMatchData$1.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$typecreator1$1.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$typecreator2$1.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$typecreator3$1.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$Score$$anonfun$$plus$1.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$Score$.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$Score.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/StandAloneTest$.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/StandAloneTest.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/SimpleApp$$anonfun$1.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/SimpleApp$$anonfun$2.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/SimpleApp$.class -> lastModified(1486300631000)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/SimpleApp.class -> lastModified(1486300631000)
+source stamps:
+3 items
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> hash(12fe06ae98edd0c89320f5df3d924705586af180)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> hash(5852bb7772fe7578c400fc0798c6781250584331)
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> hash(fc324bac2cb32731a02277c29ded8bfdd47980a0)
+binary stamps:
+6 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1454109346000)
+/Users/lee/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.0.0.jar -> lastModified(1468969882000)
+/Users/lee/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.0.0.jar -> lastModified(1468969501000)
+/Users/lee/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.0.jar -> lastModified(1468970091000)
+/Users/lee/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457496963000)
+/Users/lee/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> lastModified(1457496962000)
+class names:
+6 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/lee/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.0.0.jar -> org.apache.spark.sql.types.StructType
+/Users/lee/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.0.0.jar -> org.apache.spark.rdd.RDD
+/Users/lee/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.0.jar -> org.apache.spark.sql.DataFrameReader
+/Users/lee/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.StringContext
+/Users/lee/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> scala.reflect.api.TypeCreator
+internal apis:
+3 items
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD7n9lRAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAQXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJoyQ2R0AAZub3RpZnlzcQB+AAyQyr/zdAAHdW5hcHBseXNxAH4ADMSqJ750AARpZF8yc3EAfgAMxqAMUnQACGlzX21hdGNoc3EAfgAMWEMAf3QABHdhaXRzcQB+AAz4QQRNdAAOY29weSRkZWZhdWx0JDJzcQB+AAznrckcdAANJGFzSW5zdGFuY2VPZnNxAH4ADBcktq90AAxjbXBfbG5hbWVfYzJzcQB+AAzzAwJNdAAMY21wX2ZuYW1lX2Mxc3EAfgAM/0T2NHQADmNvcHkkZGVmYXVsdCQ1c3EAfgAMIInp+3QADnNjb3JlTWF0Y2hEYXRhc3EAfgAMf9kMlnQAB2NvbXBvc2VzcQB+AAw9DiKWdAAMcHJvZHVjdEFyaXR5c3EAfgAMTUsBtXQABmVxdWFsc3NxAH4ADHscjBt0AA5jb3B5JGRlZmF1bHQkOXNxAH4ADBYvr7t0AA9jb3B5JGRlZmF1bHQkMTJzcQB+AAyEX5IkdAAMYXNJbnN0YW5jZU9mc3EAfgAMDBu6ZXQADHN5bmNocm9uaXplZHNxAH4ADFOYH/h0AA0kaXNJbnN0YW5jZU9mc3EAfgAMpm5bhHQAB2FuZFRoZW5zcQB+AAzIjG5qdAAOY29weSRkZWZhdWx0JDhzcQB+AAxUifb7dAAMcGl2b3RTdW1tYXJ5c3EAfgAMPxO+43QACGNhbkVxdWFsc3EAfgAMqdbEGnQADmNvcHkkZGVmYXVsdCQ0c3EAfgAMYrN8WHQABG1haW5zcQB+AAywozlvdAAHY21wX3NleHNxAH4ADFwgFbd0AA1wcm9kdWN0UHJlZml4c3EAfgAMPBB5CXQACGxvbmdGb3Jtc3EAfgAMLqf5LnQAB2NtcF9wbHpzcQB+AAwwNzrYdAAJbm90aWZ5QWxsc3EAfgAMM8s3rHQAC3JlYWRSZXNvbHZlc3EAfgAMsKLFrHQABmNtcF9ieXNxAH4ADH1PWeF0AAxpc0luc3RhbmNlT2ZzcQB+AAwm0vRNdAAGUnVuQ2gyc3EAfgAMR9C+fnQABjxpbml0PnNxAH4ADEt1We50AAVhcHBseXNxAH4ADAxXwDR0AAxjbXBfbG5hbWVfYzFzcQB+AAwyrf1EdAAJY3Jvc3NUYWJzc3EAfgAMPSo4c3QAAj09c3EAfgAMrXnd9HQABWNsb25lc3EAfgAMmC6kW3QACU1hdGNoRGF0YXNxAH4ADK1imn90AA5jb3B5JGRlZmF1bHQkN3NxAH4ADKP1T7h0AA9jb3B5JGRlZmF1bHQkMTBzcQB+AAx9WK/GdAAFU2NvcmVzcQB+AAwRvPHbdAAGY21wX2Jkc3EAfgAM1NZxUXQADmNvcHkkZGVmYXVsdCQzc3EAfgAMQYo0jXQABGNvcHlzcQB+AAwvOIAqdAAIdG9TdHJpbmdzcQB+AAwy9ZredAABK3NxAH4ADHhhOLZ0AARpZF8xc3EAfgAM29hYu3QABmNtcF9ibXNxAH4ADGlwmgV0AAIhPXNxAH4ADCuYosh0AAhnZXRDbGFzc3NxAH4ADJYXL6N0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADLvMf7Z0AA5jb3B5JGRlZmF1bHQkNnNxAH4ADEJPoEl0AAJuZXNxAH4ADOGLlBB0AA9jb3B5JGRlZmF1bHQkMTFzcQB+AAyoNPzldAAFdmFsdWVzcQB+AAygT2HEdAACZXFzcQB+AAxEU0xpdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAM9T6Ir3QADGNtcF9mbmFtZV9jMnNxAH4ADMC+eJF0AAIjI3NxAH4ADLkEh2x0AAhmaW5hbGl6ZXNxAH4ADOMsWHV0AA5wcm9kdWN0RWxlbWVudHNxAH4ADJN4+vd0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AJl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA1jaDIuTWF0Y2hEYXRhdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+ALEBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AJlMAAlpbmhlcml0ZWRxAH4AmUwAB3BhcmVudHNxAH4AmXhxAH4AuHNxAH4AsQF1cQB+AJQAAAAAcHNxAH4AsQF1cQB+AJQAAAAAcHNxAH4AsQF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+ALd0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+ALdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ANFzcQB+AMRxAH4Ax3NxAH4AyHNxAH4Ay3VxAH4AzgAAAANzcQB+ANB0AARqYXZhc3EAfgDQdAACaW9xAH4A1XNxAH4AxHQAB1Byb2R1Y3RxAH4AynNxAH4AxHQABkVxdWFsc3EAfgDKc3EAfgDEdAAGT2JqZWN0c3EAfgDIc3EAfgDLdXEAfgDOAAAAA3NxAH4A0HEAfgDbc3EAfgDQdAAEbGFuZ3EAfgDVc3EAfgDEdAADQW55cQB+AMpwcHNxAH4AlnEAfgCjdXEAfgCkAAAAAHNxAH4ApgB0AApjaDIuUnVuQ2gydXEAfgCpAAAAAH5xAH4Aq3QABk1vZHVsZXVxAH4ArwAAAABzcQB+ALEBcQB+ALlwc3EAfgCxAXNxAH4Au3NxAH4AsQF1cQB+AJQAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AJpxAH4Ao3VxAH4ApAAAAABzcQB+AKYAcQB+AD91cQB+AKkAAAAAc3EAfgDEdAAEVW5pdHNxAH4AyHNxAH4Ay3VxAH4AzgAAAAJzcQB+ANBxAH4A03EAfgDVdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4A+nhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4ArHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AxVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4At3NxAH4AxHQABUFycmF5cQB+AQJ1cQB+AMIAAAABc3EAfgDEdAAGU3RyaW5nc3EAfgDIc3EAfgDLdXEAfgDOAAAAA3NxAH4A0HEAfgDbc3EAfgDQcQB+AOlxAH4A1XBzcQB+ALEBdXEAfgCUAAAAAHBzcQB+ALEBdXEAfgDCAAAAAnNxAH4AxHEAfgDjcQB+ARxzcQB+AMRxAH4A63EAfgECcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AANjaDJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVoOa6zFdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQATC9Vc2Vycy9sZWUvSWRlYVByb2plY3RzL0FkdmFuY2VkQW5hbHl0aWNzV2l0aFNwYXJrL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQS/gaumO3QyJMg9d89kkcFWGrxgA==
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBcxIgnAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPp1rsJ0AAZub3RpZnlzcQB+AAz7gMwCdAAEd2FpdHNxAH4ADHhU3TN0AA0kYXNJbnN0YW5jZU9mc3EAfgAMFlPQf3QABmVxdWFsc3NxAH4ADNRWR/d0AAxhc0luc3RhbmNlT2ZzcQB+AAxaXITqdAAMc3luY2hyb25pemVkc3EAfgAM8MUL53QADSRpc0luc3RhbmNlT2ZzcQB+AAyhwzzkdAAEbWFpbnNxAH4ADHeyPG50AAlub3RpZnlBbGxzcQB+AAyvUc75dAAMaXNJbnN0YW5jZU9mc3EAfgAMJDDDXnQAAj09c3EAfgAMErAwdnQABWNsb25lc3EAfgAMrxeujHQACHRvU3RyaW5nc3EAfgAMUfd5eXQAAiE9c3EAfgAMzk2IzXQACGdldENsYXNzc3EAfgAMmBuRSnQAAm5lc3EAfgAMw2rek3QAAmVxc3EAfgAMuw1tI3QAAiMjc3EAfgAMl1lhL3QACGZpbmFsaXplc3EAfgAMy/Aj73QACGhhc2hDb2Rlc3EAfgAMWOTdn3QADlN0YW5kQWxvbmVUZXN0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAEmNoMi5TdGFuZEFsb25lVGVzdHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFp4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFkAcHNxAH4AXnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGJzcQB+AFkAcHNxAH4AXnVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AHXVxAH4AUQAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Af3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGx4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFR0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHNbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGFzcQB+AHJ0AAVBcnJheXEAfgB4dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHJ0AAZTdHJpbmdzcQB+AHZzcQB+AHl1cQB+AHwAAAADc3EAfgB+dAAEamF2YXNxAH4AfnQABGxhbmdxAH4Ag3NxAH4AWQBwc3EAfgBedXEAfgA8AAAAAHNxAH4AWQBwc3EAfgBedXEAfgCXAAAAAnNxAH4AcnQABk9iamVjdHEAfgCbc3EAfgBydAADQW55cQB+AHh1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AANjaDJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVoOa6zFdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQATC9Vc2Vycy9sZWUvSWRlYVByb2plY3RzL0FkdmFuY2VkQW5hbHl0aWNzV2l0aFNwYXJrL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRYUrt3cv51eMQA/AeYxngSUFhDMQ==
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHA1gsTVAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cD3clrB0AAZub3RpZnlzcQB+AAyr0gpWdAAEd2FpdHNxAH4ADMCgwhB0AA0kYXNJbnN0YW5jZU9mc3EAfgAM29g0SHQABmVxdWFsc3NxAH4ADBN+7wZ0AAxhc0luc3RhbmNlT2ZzcQB+AAzlfiSEdAAMc3luY2hyb25pemVkc3EAfgAMVor0XnQADSRpc0luc3RhbmNlT2ZzcQB+AAwO3+PCdAAEbWFpbnNxAH4ADEzI5Hp0AAlub3RpZnlBbGxzcQB+AAyDygBodAAMaXNJbnN0YW5jZU9mc3EAfgAMP2YxwnQAAj09c3EAfgAM76NGInQABWNsb25lc3EAfgAMIPuoSHQACVNpbXBsZUFwcHNxAH4ADAlM46h0AAh0b1N0cmluZ3NxAH4ADPNnvjZ0AAIhPXNxAH4ADFHaZzd0AAhnZXRDbGFzc3NxAH4ADCfPL3R0AAJuZXNxAH4ADHZLLoB0AAJlcXNxAH4ADPGiqUR0AAIjI3NxAH4ADDZioiJ0AAhmaW5hbGl6ZXNxAH4ADF5ioy50AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABBzaW1wbGUuU2ltcGxlQXBwdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBZAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGBzcQB+AFkBdXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF90AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB7dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AaHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ab1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AX3NxAH4AbnQABUFycmF5cQB+AHR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AbnQABlN0cmluZ3NxAH4AcnNxAH4AdXVxAH4AeAAAAANzcQB+AHp0AARqYXZhc3EAfgB6dAAEbGFuZ3EAfgB/cHNxAH4AWQF1cQB+ADwAAAAAcHNxAH4AWQF1cQB+AJMAAAACc3EAfgBudAAGT2JqZWN0cQB+AJdzcQB+AG50AANBbnlxAH4AdHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGc2ltcGxlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFaDmusxXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEwvVXNlcnMvbGVlL0lkZWFQcm9qZWN0cy9BZHZhbmNlZEFuYWx5dGljc1dpdGhTcGFyay90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU/DJLrCyzJzGgInfCne2L/dR5gKA=
+external apis:
+0 items
+source infos:
+3 items
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/RunCh2.scala -> 
+AAAAAAAAAAA=
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/ch2/StandAloneTest.scala -> 
+AAAAAAAAAAA=
+/Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/src/main/scala-2.11/simple/SimpleApp.scala -> 
+AAAAAAAAAAA=
+compilations:
+4 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWeEfv3V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9Vc2Vycy9sZWUvSWRlYVByb2plY3RzL0FkdmFuY2VkQW5hbHl0aWNzV2l0aFNwYXJrL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWeErjEd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9Vc2Vycy9sZWUvSWRlYVByb2plY3RzL0FkdmFuY2VkQW5hbHl0aWNzV2l0aFNwYXJrL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWg2gv8t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9Vc2Vycy9sZWUvSWRlYVByb2plY3RzL0FkdmFuY2VkQW5hbHl0aWNzV2l0aFNwYXJrL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWg5rrMV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9Vc2Vycy9sZWUvSWRlYVByb2plY3RzL0FkdmFuY2VkQW5hbHl0aWNzV2l0aFNwYXJrL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv

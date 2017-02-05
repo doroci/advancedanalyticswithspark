@@ -4,7 +4,7 @@
 		module="advancedanalyticswithspark$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170128020007"
+		publication="20170205220557"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
