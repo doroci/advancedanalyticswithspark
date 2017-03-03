@@ -7,13 +7,15 @@ import org.apache.spark.{SparkConf, SparkContext}
   */
 object SimpleApp {
   def main(args: Array[String]) {
-    val logFile = "/usr/local/spark-2.0.2-bin-hadoop2.7/README.md"
-    val conf = new SparkConf().setAppName("Simple Application").setMaster("local[4]")
+    val logFile = "/home/ubuntu/spark-2.0.0-bin-hadoop2.7/README.md"
+    val conf = new SparkConf().setAppName("Simple Application").setMaster("local[*]")
     val sc = new SparkContext(conf)
     val logData = sc.textFile(logFile, 2).cache()
-    val numAs = logData.filter(line => line.contains("a")).count()
+    val numAs = logData.filter(line => line.contains("a"))
     val numBs = logData.filter(line => line.contains("b")).count()
     println(s"Lines with a: $numAs, Lines with b: $numBs")
-    sc.stop()
+    numAs.saveAsTextFile("/home/ubuntu/spark-2.0.0-bin-hadoop2.7/output")
   }
 }
+
+

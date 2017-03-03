@@ -12,14 +12,15 @@ object StandAloneTest {
 
     //스파크 세션 설정
     val spark = SparkSession.builder
-      .appName("standAlone-cluster-test").master("local[6]")
+      .appName("StandAlone-test").master("local[4]")
       .getOrCreate
     import spark.implicits._
 
     // csv파일 읽기
     val preview = spark
       .read
-      .csv("/Users/lee/Downloads/ml-latest/ratings.csv")
+      .csv("/.../ratings.csv")
+
     preview.show
 
     // option값 설정
@@ -27,11 +28,11 @@ object StandAloneTest {
       .option("header", "true") // 파일의 첫 줄을 필드 명으로 사용
       .option("nullValue", "?") // 필드 데이터를 변경( "?" => null )
       .option("inferSchema", "true") // 데이터 타입을 추론한다.
-      .csv("/Users/lee/Downloads/ml-latest/ratings.csv")
+      .csv("/.../ratings.csv")
     parsed.show
 
     parsed.count
-    parsed.cache
+//    parsed.cache
     parsed
       .groupBy("movieId")
       .count
@@ -50,5 +51,8 @@ object StandAloneTest {
     // describe() : numeric columns, including count, mean, stddev, min, and max의 통계를 리턴해준다.
     val summary = parsed.describe()
     summary.show
+
+    summary.write.format("csv").save("/../output")
+
   }
 }

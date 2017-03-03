@@ -1,5 +1,7 @@
 [info] Packaging /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/advancedanalyticswithspark_2.11-1.0.jar ...
 [debug] Input file mappings:
+[debug] 	simple/RDDException$delayedInit$body.class
+[debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/RDDException$delayedInit$body.class
 [debug] 	ch2/RunCh2$$anonfun$longForm$1.class
 [debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$longForm$1.class
 [debug] 	ch2/RunCh2$$anonfun$longForm$1$$anonfun$apply$1.class
@@ -14,6 +16,8 @@
 [debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$typecreator2$1.class
 [debug] 	simple/SimpleApp.class
 [debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/SimpleApp.class
+[debug] 	simple/RDDException$$anonfun$func_a$1.class
+[debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/RDDException$$anonfun$func_a$1.class
 [debug] 	ch2/RunCh2$$typecreator1$1.class
 [debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$typecreator1$1.class
 [debug] 	ch2/RunCh2$$typecreator3$1.class
@@ -28,6 +32,8 @@
 [debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$.class
 [debug] 	ch2/RunCh2.class
 [debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2.class
+[debug] 	simple/RDDException.class
+[debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/RDDException.class
 [debug] 	simple/SimpleApp$.class
 [debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/SimpleApp$.class
 [debug] 	ch2/MatchData$.class
@@ -48,4 +54,6 @@
 [debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/ch2/RunCh2$$anonfun$main$2.class
 [debug] 	simple/SimpleApp$$anonfun$2.class
 [debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/SimpleApp$$anonfun$2.class
+[debug] 	simple/RDDException$.class
+[debug] 	  /Users/lee/IdeaProjects/AdvancedAnalyticsWithSpark/target/scala-2.11/classes/simple/RDDException$.class
 [info] Done packaging.

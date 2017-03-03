@@ -4,7 +4,7 @@
 		module="advancedanalyticswithspark$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170205220557"
+		publication="20170303200350"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

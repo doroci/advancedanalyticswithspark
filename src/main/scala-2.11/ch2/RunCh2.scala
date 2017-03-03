@@ -35,7 +35,8 @@ object RunCh2 {
 
 
     // ex) Users/lee/Documents/sparks/Season2/Advanced_Analytics_With_Spark/linkage/block_1.csv
-    val preview = spark.read.csv("/Users/lee/Documents/sparks/Season2/Advanced_Analytics_With_Spark/linkage/block_1.csv")
+//    val preview = spark.read.csv("/Users/lee/Documents/sparks/Season2/Advanced_Analytics_With_Spark/linkage/block_1.csv")
+    val preview = spark.read.csv("hdfs:///user/ubuntu/block_1.csv")
     preview.show()
     preview.schema.foreach(println)
 
@@ -43,7 +44,8 @@ object RunCh2 {
       .option("header", "true") // 파일의 첫 줄을 필드 명으로 사용
       .option("nullValue", "?") // 필드 데이터를 변경( "?" => null )
       .option("inferSchema", "true") // 데이터 타입을 추론한다.
-      .csv("/Users/lee/Documents/sparks/Season2/Advanced_Analytics_With_Spark/linkage/block_1.csv")
+//      .csv("/Users/lee/Documents/sparks/Season2/Advanced_Analytics_With_Spark/linkage/block_1.csv")
+      .csv("hdfs:///user/ubuntu/block_1.csv")
 
     parsed.show()
     val schema = parsed.schema
